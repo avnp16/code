@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "fibonacci_series.C": "cpp",
+        "DEMO.C": "cpp",
+        "find-the-greatest-number-of-three-numbers.C": "cpp",
+        "check-whether-the-given-number-is-even-or-odd.C": "cpp"
+    }
+}

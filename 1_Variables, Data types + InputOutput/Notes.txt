@@ -1,0 +1,22 @@
+A_Arithmatic Operator [5 five]  + - / * % 
+B_Relational Operator == != > >= < <=
+C_Logical Operator && || !
+D_Bitwise_Operator
+E_Assignment_Operator = += -= *= /= %=
+F_Ternary_Operator ? :
+G_Increment and Decrement_Operator ++ --
+
+
+Operator precendence
+1   !
+2   *,/,%
+3   +,-
+4   <,<=,>,>=
+5   ==,!=
+6   &&
+7   ||
+8   =
+
+Conditinal Statement
+1. if else
+2. Switch
