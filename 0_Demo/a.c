@@ -1,14 +1,18 @@
 //
-#include<stdio.h>
-#include<math.h>
 
+#include<stdio.h>
 
 int main() 
 {
-int n=4;
-int j=2;    
-    printf("%f",pow(n,j));
- 
+    int i,a,b,n,sum;
+
+    printf();
+    scanf(%d,&n);
+
+    
+
+
+
 
 
 return 0;
