@@ -1,27 +1,28 @@
 #include <stdio.h>
 
-int main()
+int main(int argc, char const *argv[])
 {
-    int n, i, c = 0;
-    printf("Enter any number n:");
+    int n, i, count = 0;
+
+    printf("Enter Number\n");
     scanf("%d", &n);
 
-    // logic
-    for (i = 1; i <= n; i++)
+    for (i = 2; i <n-1; i++)
     {
+
         if (n % i == 0)
         {
-            c++;
+            printf("not prime number");
+            break;
         }
-    }
 
-    if (c == 2)
-    {
-        printf("is a Prime number");
+        else printf("prime number\n");
+                    break;
+
     }
-    else
-    {
-        printf("is not a Prime number");
-    }
+    
+    
+    
+
     return 0;
 }
