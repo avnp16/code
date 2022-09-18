@@ -20,3 +20,11 @@ Operator precendence
 Conditinal Statement
 1. if else
 2. Switch
+
+math.h run karava
+gcc "Filename".c -lm
+./a.out
+
+
+jate code run karava mate 
+gcc "file name".c && ./a.out
