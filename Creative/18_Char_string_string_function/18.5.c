@@ -1,0 +1,1 @@
+//18.5	WAP  to Enter decimal and display  it.(1) Length of given string. (2)Total Num of alphabet. (3) Total Num of digit.(4) Total num of upper character. (5) Total Num of Lower character. (6) Total num of space. (7) Total Num of words (8) Total Num of other character.

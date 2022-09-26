@@ -1,5 +1,6 @@
+// pending chhe
+
 #include <stdio.h>
-#include <conio.h>
 
 int main(int argc, char const *argv[])
 {
@@ -8,12 +9,12 @@ int main(int argc, char const *argv[])
     b = 90;
     c = 90;
 
-    /*printf("Enter the Value of A=");
-    scanf("%d\n",&a);
+    printf("Enter the Value of A=");
+    scanf("%d",&a);
     printf("Enter the Value of B=");
-    scanf("%d\n",&b);
+    scanf("%d",&b);
     printf("Enter the Value of C=");
-    scanf("%d\n",&c);*/
+    scanf("%d",&c);
 
     if (a == b)
     {
@@ -32,7 +33,7 @@ int main(int argc, char const *argv[])
     {
         if (a > c)
         {
-            printf("A is max\n");
+            printf("b & c are Equal & A is max\n");
         }
         else
             printf("A is min\n");

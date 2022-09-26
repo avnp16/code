@@ -4,7 +4,7 @@
 
 void main()
 {
-    int i, j, k, sum = 0, count = 0;
+    int i, j, k,p, sum = 0, count = 0;
 
     /*
     *****
@@ -189,6 +189,17 @@ void main()
     //     printf("\n");  }
     //     printf("----------------\n");
 
+    // for ( i = 1; i <=5; i++)   
+        
+    //     { p=5;           
+            
+    //     for (j = 1; j<=i; j++)     //col increase 1 to 5 small to big
+    //     { printf("%d",p--); }
+       
+    //     printf("\n");  
+    //     }
+    //     printf("-------------\n");
+
     /* (9)
 1
 13
@@ -372,53 +383,53 @@ void main()
 
     */
 
-    for (i = 1; i <= 5; i++)
-    {
-        k = ((i * 2) - 1);
-        for (j = i; j >= 1; j--)
+    // for (i = 1; i <= 5; i++)
+    // {
+    //     k = ((i * 2) - 1);
+    //     for (j = i; j >= 1; j--)
 
-        {
-            printf("%d", k);
-            k -= 2;
-        }
-
-        printf("\n");
-    }
-
-    for (i = 1; i <= 5; i++)
-    {
-        k = (11 - i - count);
-
-        for (j = 1; j <= 6 - i; j++)
-
-        {
-            printf("%d", k);
-            k -= 2;
-        }
-        count++;
-
-        printf("\n");
-    }
-    printf("----------------\n");
-
-    /*(17)
-    1
-    1*
-    1*1
-    1*1*
-    1*1*1
-
-    */
-
-    // for ( i = 1; i <=5; i++)
-
-    //     { k=1;
-
-    //         for (j = 1; j<=i; j++,k++)
     //     {
-    //         if (k% 2==0)
-    //         {
-    //             printf("*");
+    //         printf("%d", k);
+    //         k -= 2;
+    //     }
+
+    //     printf("\n");
+    // }
+
+    // for (i = 1; i <= 5; i++)
+    // {
+    //     k = (11 - i - count);
+
+    //     for (j = 1; j <= 6 - i; j++)
+
+    //     {
+    //         printf("%d", k);
+    //         k -= 2;
+    //     }
+    //     count++;
+
+    //     printf("\n");
+    // }
+    // printf("----------------\n");
+
+    // /*(17)
+    // 1
+    // 1*
+    // 1*1
+    // 1*1*
+    // 1*1*1
+
+    // */
+
+    // // for ( i = 1; i <=5; i++)
+
+    // //     { k=1;
+
+    // //         for (j = 1; j<=i; j++,k++)
+    // //     {
+    // //         if (k% 2==0)
+    // //         {
+    // //             printf("*");
     //         }
     //                else printf("1");
 
@@ -497,4 +508,92 @@ void main()
     //     printf("\n");
     // }
     // printf("----------------\n");
+/*
+    1
+    12
+    123
+    1234
+    12345
+    */
+
+    for ( i = 1; i <=5; i++)         
+        { 
+            for (k = 1; k<=5-i; k++)
+            {
+               printf(" ");
+            }
+                            
+            for (j = 1; j<=i; j++) 
+
+             { printf("%d",j); }
+
+        printf("\n"); 
+        }
+        printf("----------------\n");
+
+for ( i = 1; i <=5; i++)         
+        { 
+            for (k = 1; k<=i-1; k++)
+            {
+               printf(" ");
+            }
+                            
+            for (j = 1; j<=6-i; j++) 
+
+             { printf("%d",j); }
+
+        printf("\n"); 
+        }
+        printf("----------------\n");
+
+for ( i = 1; i <=5; i++)         
+        { 
+           
+            for (k = 1; k<=i-1; k++)
+            {
+               printf(" ");
+            }
+                            
+            for (j = i; j<=5; j++) 
+
+             { printf("%d",j); 
+
+             }
+
+        printf("\n"); 
+        }
+        printf("----------------\n");
+
+
+        for ( i = 1; i <=5; i++)         
+        { 
+            for (k = 1; k<=5-i; k++)
+            {
+               printf(" ");
+            }
+              p=6-i;              
+            for (j = 1; j<=i; j++,p++) 
+
+             { printf("%d",p); }
+
+        printf("\n"); 
+        }
+        printf("----------------\n");
+
+
+
+for ( i = 1; i <=5; i++)
+{
+    for ( j = i; j <=5; j++)
+    {
+        printf("%d",j);
+
+    }
+            printf("\n"); 
+
+}
+
+
+
+
 }
