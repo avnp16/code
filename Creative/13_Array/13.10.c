@@ -28,7 +28,7 @@ int main()
  
    if (i < n) {
       printf("The element is found in the position = %d\n", i + 1);
-            printf("The element is found in the index number = %d\n", i);
+      printf("The element is found in the index number = %d\n", i);
 
    } else {
       printf("Element not found!");

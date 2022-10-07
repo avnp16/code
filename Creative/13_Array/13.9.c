@@ -4,7 +4,7 @@
 
 int main()
 {
-    int n, i;
+    int n, i, j,ass;
     printf("Enter the number: ");
     scanf("%d", &n);
 
@@ -16,7 +16,7 @@ int main()
         scanf("%d", &a[i]);
     }
 
-    // storing the largest number at arr[0]
+    // storing the smallest number at arr[0]
     for (i = 0; i < n; i++)
     {
         if (a[0] > a[i])
@@ -25,7 +25,26 @@ int main()
         }
     }
 
-    printf("Min = %d\t", a[0]);
+    // printf("Min = %d\t", a[0]);
+
+    // shorting 
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < n; j++)
+        {
+            if (a[i] >a[j])
+            {
+                ass=a[i];
+                a[i] = a[j];
+                a[j]=ass;
+            }
+        }
+    }
+
+    for (i = 0; i < n; i++)
+    {
+        printf("%d\t", a[i]);
+    }
 
     return 0;
 }
