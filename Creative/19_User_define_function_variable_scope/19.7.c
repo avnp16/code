@@ -61,15 +61,12 @@ int main(int argc, char const *argv[])
 //     {
 //         for (j = i+1; j < n; j++)
 //         {
-
 //                 if (strcmp(a[i],a[j]>0))
 //                 {
 //                     strcpy(temp,a[i]);
 //                     strcpy(a[i],a[j]);
 //                     strcpy(a[j],temp);
-
 //                 }
-
 //         }
 //     }
 
