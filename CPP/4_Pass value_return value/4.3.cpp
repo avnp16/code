@@ -1,0 +1,1 @@
+//WAP to convert binery to decimal

@@ -1,0 +1,1 @@
+//WAP to Print all perfect number between 1 and given number

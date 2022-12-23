@@ -1,0 +1,1 @@
+//WAP to swap to private data members of classes named as class_1,clss_2 using friend function.

@@ -1,0 +1,1 @@
+//Wright a c++ program to display names,roll no.and grades of 3 students who have appeared in the examination,declare the class of name,roll no.and grade.Creat an array of class objects read and display the contents of the array.

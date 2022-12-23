@@ -1,0 +1,1 @@
+//WAP which creat & uses array of objects of a class(for eg.implementing the list of managers of a company having details such as name,age,etc..).  

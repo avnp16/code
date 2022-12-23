@@ -1,0 +1,1 @@
+//WAP to find first small letter in given string

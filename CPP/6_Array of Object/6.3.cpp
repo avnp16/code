@@ -1,0 +1,1 @@
+//WAP to accept cricket player name,total matches,total run and print this details with batting average.

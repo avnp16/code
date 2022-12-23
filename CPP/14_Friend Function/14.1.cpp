@@ -1,0 +1,1 @@
+//WAp to find maximum out of two numbers using friend function.
